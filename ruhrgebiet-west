@@ -1,3 +1,25 @@
-tech-c:
-  - kontakt@freifunk-ruhrgebiet.de
 asn: 65409
+
+tech-c:
+  - daniel.jaeger@freifunk-oberhausen.net
+  - fabian@freifunk-duisburg.de
+
+networks:
+  ipv4:
+    - 10.225.0.0/16
+  ipv6:
+    - 2a03:2260:50:11::/64
+    - 2a03:2260:50:1100::/56
+    - 2a03:2260:3019::/48
+
+domains:
+  - ffrgw
+  - ffob
+  - ffmh
+  - ffdu
+
+nameservers:
+  - 10.225.32.1
+  - 10.225.32.2
+  - 2a03:2260:3019:ffff::1
+  - 2a03:2260:3019:ffff::2
